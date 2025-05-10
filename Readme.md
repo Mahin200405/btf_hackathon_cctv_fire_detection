@@ -6,15 +6,26 @@ This section provides an in-depth overview of the tools, development process, an
 
 ### 🔧 Tools & Technologies Used
 
-| Tool              | Purpose                                      |
-|-------------------|----------------------------------------------|
-| **Python 3.10+**   | Core language for the detection pipeline      |
-| **YOLOv11 (Roboflow)** | Real-time object detection (fire/smoke)        |
-| **Roboflow API**  | Hosted model inference & dataset management  |
-| **OpenCV**        | Frame extraction and annotation              |
-| **json**          | Storing and passing structured detection data |
-| **dotenv**        | Securing API keys                            |
-| **Git + GitHub**  | Version control and code sharing             |
+- **Python 3.10+**  
+  Core language used for developing the entire pipeline.
+
+- **YOLOv11 (via Roboflow)**  
+  Deep learning object detection model for identifying fire and smoke in video frames.
+
+- **Roboflow API**  
+  Used for hosting the trained model and running inference on video frames.
+
+- **OpenCV**  
+  Handles video capture, frame-by-frame processing, and visual annotation with bounding boxes.
+
+- **json module**  
+  Used to structure, store, and transfer detection data between agents.
+
+- **python-dotenv**  
+  Secures API keys and loads environment variables from a `.env` file.
+
+- **Git & GitHub**  
+  For version control, team collaboration, and hosting the project source code.
 
 ---
 
